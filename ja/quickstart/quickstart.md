@@ -8,30 +8,30 @@ chapter: quickstart
 section: quickstart
 ---
 
-# 概要 <a id="overview"></a>
+# Overview <a id="overview"></a>
 
-クイックスタートガイドは既に [Node](http://nodejs.org) ruby on rails のような環境に慣れている人を対象としています。もしもこういった環境を使うのが初めてであれば、[インストールガイド](/installation.html)をまず参照することをおすすめします。
+The Quickstart Guide to getting Ghost up and running is aimed at those of you who are already familiar with [Node](http://nodejs.org), or something similar like ruby on rails. If you're new in town, we recommend taking a look at the more in depth [Installation Guide](/installation.html).
 
-## ローカル環境で Ghost を動かす <a id="ghost-local"></a>
+## Get Ghost running locally <a id="ghost-local"></a>
 
-Ghost を動かすには node `0.10.*` が必要です。(最新の安定版バージョン)
+Ghost requires node `0.10.*` (the latest stable version).
 
-上記のバージョンを動かせる環境でない場合は、まず <http://nodejs.org> へ行き、最新の Node.js をダウンロードしてください。インストーラを使用することにより、 Node と Node の素晴らしいパッケージマネージャである npm がインストールされます。
+If you haven't already got it, head over to <http://nodejs.org> and download the latest version of Node.js. The installer will set up both Node and Node's excellent package manager, npm.
 
-Linux ユーザは .tar.gz のアーカイブファイルからのインストールよりも [パッケージマネージャを使用したインストール](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager) を好むかもしれません。
+For users on Linux, rather than installing from the .tar.gz archive, you may want to [install from a package manager](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager)
 
-[Ghost.org](http://ghost.org) より、最新バージョンの Ghost をダウンロードしてください。アーカイブファイルを Ghost を実行したいファイルに展開してくださ。(どこでも構いません!)
+Download the latest version of Ghost from [Ghost.org](http://ghost.org). Unpack the archive to a folder where you'd like to run Ghost - anywhere will do!
 
-ターミナル画面(mac/linux) もしくは コマンドプロンプト画面(windows) を開き、Ghost アーカイブファイルを展開したディレクトリまで移動してください。(package.jsonがあるディレクトリです)
+Fire up your terminal (mac/linux) or command prompt (windows) and navigate to the root directory of your unpacked Ghost archive (where package.json lives).
 
-Ghost をインストールするために、 `npm install --production` を実行してください。
+To install Ghost, run `npm install --production`
 
-<!--<h2 id="customise">Ghost の設定とカスタマイズ</h2>
+<!--<h2 id="customise">Customise & Configure Ghost</h2>
 
-<h2 id="ghost-deploy">Ghost のデプロイ</h2>
+<h2 id="ghost-deploy">Deploy Ghost</h2>
 
 <ol>
-    <li>ターミナル画面 もしくは コマンドプロンプト画面で、<code>npm start</code> とタイプしてください。</li>
-    <li><p>こうすることで、あなたの Ghost blog が動きます。<a href="http://localhost:2368/">http://localhost:2368/</a>へアクセスして確認してみてください。</p></li>
+    <li>In the Terminal / Command Prompt, type <code>npm start</code></li>
+    <li><p>This will have launched your Ghost blog, visit one  <a href="http://localhost:2368/">http://localhost:2368/</a> to see</p></li>
 </ol>
 -->
