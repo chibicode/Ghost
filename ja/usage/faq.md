@@ -12,13 +12,13 @@ prev_section: writing
 ---
 
 
-## FAQ <a id="faq"></a>
+## FAQ<a id="faq"></a>
 
-### (いつ) Ghost は X の機能をサポートしますか?
+### (いつ)GhostはXの機能をサポートしますか?
 
-[機能実装予定](https://github.com/TryGhost/Ghost/wiki/Planned-Features) と、[Github wiki](https://github.com/TryGhost/Ghost/wiki)ページの[ロードマップ](https://github.com/TryGhost/Ghost/wiki/Roadmap)をご覧になってください。
+[機能実装予定](https://github.com/TryGhost/Ghost/wiki/Planned-Features)と、[Github wiki](https://github.com/TryGhost/Ghost/wiki)ページの[ロードマップ](https://github.com/TryGhost/Ghost/wiki/Roadmap)をご覧になってください。
 
 ### どのようにして投稿ポストに画像を入れられますか?
 
-Ghost エディタでどのように画像を挿入するかについては、[Markdownガイド](/usage/writing/#markdown) をご覧になってください。
+Ghostの投稿画面でどのように画像を挿入するかについては、[Markdownガイド](/usage/writing/#markdown)をご覧になってください。
 
